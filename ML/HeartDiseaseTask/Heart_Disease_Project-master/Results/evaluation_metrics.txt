@@ -1,0 +1,33 @@
+# Heart Disease ML Models Evaluation Metrics
+
+1️⃣ Random Forest
+Accuracy: 0.8689
+Precision: 0.8750
+Recall: 0.8750
+F1-score: 0.8750
+ROC-AUC: 0.9542025862068965
+
+2️⃣ Logistic Regression
+Accuracy: 0.6885
+Precision: 0.7600
+Recall: 0.5938
+F1-score: 0.6667
+ROC-AUC: 0.7575431034482759
+
+3️⃣ Decision Tree
+Accuracy: 0.7541
+Precision: 0.7576
+Recall: 0.7812
+F1-score: 0.7692
+ROC-AUC: 0.8658405172413792
+
+4️⃣ SVM
+Accuracy: 0.6885
+Precision: 0.7600
+Recall: 0.5938
+F1-score: 0.6667
+ROC-AUC: 0.7855603448275862
+
+# Notes:
+- Metrics calculated on the test set (20% of the data)
+- ROC-AUC computed using probability scores where available
